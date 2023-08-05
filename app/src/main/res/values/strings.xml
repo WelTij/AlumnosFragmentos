@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TvFragmetsAlumnos</string>
+    <string name="matricula">Matricula</string>
+    <string name="nombre">Nombre</string>
+    <string name="curp">Curp</string>
+    <string name="sexo">Sexo</string>
+    <string name="edad">Edad</string>
+</resources>

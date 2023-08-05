@@ -1,0 +1,20 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background color of the border (white background) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- The original content with padding to create the border effect (rounded corners) -->
+    <item android:left="2dp" android:right="2dp" android:top="2dp" android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="8dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#CCCCCC" />
+        </shape>
+    </item>
+</layer-list>
